@@ -11,13 +11,17 @@ for (let i = 0; i < matTab.length; i++) {
 }
 //typescrypte
 var tab = [0, 3, -5, 12, -18, -20];
-var a = 0;
+var a = tab[2];
+var b = Array(5);
 for (let i = 0; i < tab.length; i++) {
     if (tab[i] > 0) {
-        a = a + tab[i];
+        b[i] = a + tab[i];
+    } else {
+        b[i] = a + tab[i];
     }
+    console.log('La Somme des entiter et index=2 est:' + b[i]);
 }
-console.log('La Somme des entiter positif est:' + a);
+
 console.log('la fin du tableau est:' + tab[tab.length - 1]);
 //tri tableau
 tab.sort(function (a, b) {
