@@ -18,9 +18,9 @@ for (let i = 0; i < tab.length; i++) {
     }
 }
 console.log('La Somme des entiter positif est:' + a);
+console.log('la fin du tableau est:' + tab[tab.length - 1]);
 //tri tableau
 tab.sort(function (a, b) {
     return a - b;
 });
 console.log(tab);
-console.log();
