@@ -23,3 +23,4 @@ tab.sort(function (a, b) {
     return a - b;
 });
 console.log(tab);
+console.log();
