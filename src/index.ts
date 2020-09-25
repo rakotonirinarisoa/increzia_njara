@@ -1,2 +1,2 @@
-const text: string = 'cool!!!'
+const text: string = 'ito!!!'
 console.log(text);
